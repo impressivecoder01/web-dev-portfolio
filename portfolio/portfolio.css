@@ -1,0 +1,142 @@
+
+
+.work-sans-normal {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #1E1E1E;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 10px 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
+.text-center{
+    text-align:center ;
+}
+/* header */
+.header{
+   background-image: url("../too/need/developer.png"), url("../too/need/header_bg.png");
+   background-repeat: no-repeat;
+   background-position: top left, bottom right;
+}
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+.nav-tittle{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 51px;
+}
+nav ul li{
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+/* banner styles */
+.banner-greetings{
+    font-weight: 700;
+    font-size: 30px;
+}
+.banner-tittle{
+    font-weight: bold;
+    font-size: 70px;
+}
+.banner-description{
+    font-size: 20px;
+}
+.banner-profile-pic{
+    width: 450px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 150px;
+}
+.banner-content{
+    max-width: 450px;
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+main section{
+    margin-top: 110px;
+    margin-bottom: 50px;
+}
+/* ABOUT STYLES */
+.about{
+    border-radius: 10px;
+    padding: 120px 159px;
+    text-align: center;
+    margin-top: 120px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: 700;
+}
+/* skills section */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skil{
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 50px 0px #000000;
+}
+/* resume section */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-sub-title{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 9px;
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+.resume hr{
+    margin: 20px;
+}
