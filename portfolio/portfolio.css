@@ -140,3 +140,23 @@ main section{
 .resume hr{
     margin: 20px;
 }
+footer{
+    padding: 100px 150px;
+    display: flex;
+    gap: 30px;
+}
+.footer-column{
+    width: 50%;
+}
+
+div input[type="text"], div input[type="email"], div textarea{
+    height: 40px;
+    color: #1E1E1E;
+    padding: 5px 10px;
+    margin: 0 0 5px 0;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    background-color: wheat;
+    border: none;
+}
